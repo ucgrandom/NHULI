@@ -9,7 +9,8 @@
       "extensions": [
         "rust-lang.rust-analyzer",
         "tamasfe.even-better-toml",
-        "serayuzgur.crates"
+        "fill-labs.dependi",
+        "cordx56.rustowl-vscode"
       ]
     }
   },
