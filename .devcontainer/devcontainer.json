@@ -14,5 +14,5 @@
       ]
     }
   },
-  "postCreateCommand": "rustc --version && cargo --version"
+  "postCreateCommand": "rustup update stable && rustup default stable && rustup component add rustfmt clippy && rustc --version && cargo --version"
 }
