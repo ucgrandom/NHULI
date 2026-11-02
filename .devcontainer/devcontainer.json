@@ -14,5 +14,5 @@
       ]
     }
   },
-  "postCreateCommand": "rustup toolchain install stable --profile minimal --component rustfmt --component clippy && rustup default stable && rustc --version && cargo --version"
+  "postCreateCommand": "bash -lc 'rustup toolchain install 1.99.1 --profile minimal --component rustfmt --component clippy && rustup default 1.99.1 && code --install-extension rust-lang.rust-analyzer@0.4.3099 --force && code --install-extension tamasfe.even-better-toml@0.19.4 --force && code --install-extension fill-labs.dependi@1.5.3 --force && code --install-extension cordx56.rustowl-vscode@2.9.0 --force && rustc --version && cargo --version'"
 }
